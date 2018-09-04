@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+// mettre ce code dans le modele
 class ViewController: UIViewController {
     // MARK: - Properties
     var stringNumbers: [String] = [String()]
