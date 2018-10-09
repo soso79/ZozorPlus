@@ -3,18 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0FB51A215A4A4C00BC27B4 /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FB519215A4A4C00BC27B4 /* Calculate.swift */; };
+		0F0FB523215A51EA00BC27B4 /* Zozor_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FB521215A51EA00BC27B4 /* Zozor_UITests.swift */; };
+		0F3041112160D46A008B2446 /* AdditionTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3041102160D46A008B2446 /* AdditionTestCase.swift */; };
+		0F30411321616AA7008B2446 /* MultiplyTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F30411221616AA7008B2446 /* MultiplyTestCase.swift */; };
+		0F30411521616CD3008B2446 /* MinusTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F30411421616CD3008B2446 /* MinusTestCase.swift */; };
+		0F7CAFEE215FB46700E23439 /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CAFED215FB46700E23439 /* Addition.swift */; };
+		0F7CAFF0215FB51300E23439 /* Minus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CAFEF215FB51300E23439 /* Minus.swift */; };
+		0F7CAFF2215FB64600E23439 /* Multiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CAFF1215FB64600E23439 /* Multiply.swift */; };
+		0FC270F2216B5DA100955A77 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC270F1216B5DA100955A77 /* Default-568h@2x.png */; };
 		C926DADD1D7581BB00477020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926DADC1D7581BB00477020 /* AppDelegate.swift */; };
 		C926DADF1D7581BB00477020 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926DADE1D7581BB00477020 /* ViewController.swift */; };
 		C926DAE21D7581BB00477020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C926DAE01D7581BB00477020 /* Main.storyboard */; };
 		C926DAE41D7581BB00477020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C926DAE31D7581BB00477020 /* Assets.xcassets */; };
 		C926DAE71D7581BB00477020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C926DAE51D7581BB00477020 /* LaunchScreen.storyboard */; };
-		C926DAF21D7581BB00477020 /* Zozor_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926DAF11D7581BB00477020 /* Zozor_Tests.swift */; };
-		C926DAFD1D7581BB00477020 /* Zozor_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926DAFC1D7581BB00477020 /* Zozor_UITests.swift */; };
-		C9DA150A1DF08CF100B0974D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9DA15091DF08CF100B0974D /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F0FB519215A4A4C00BC27B4 /* Calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
+		0F0FB51D215A51E000BC27B4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F0FB521215A51EA00BC27B4 /* Zozor_UITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zozor_UITests.swift; sourceTree = "<group>"; };
+		0F0FB522215A51EA00BC27B4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F3041102160D46A008B2446 /* AdditionTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionTestCase.swift; sourceTree = "<group>"; };
+		0F30411221616AA7008B2446 /* MultiplyTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyTestCase.swift; sourceTree = "<group>"; };
+		0F30411421616CD3008B2446 /* MinusTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinusTestCase.swift; sourceTree = "<group>"; };
+		0F7CAFED215FB46700E23439 /* Addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addition.swift; sourceTree = "<group>"; };
+		0F7CAFEF215FB51300E23439 /* Minus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minus.swift; sourceTree = "<group>"; };
+		0F7CAFF1215FB64600E23439 /* Multiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply.swift; sourceTree = "<group>"; };
+		0FC270F1216B5DA100955A77 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../.Trash/Default-568h@2x.png"; sourceTree = "<group>"; };
 		C926DAD91D7581BB00477020 /* CountOnMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountOnMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C926DADC1D7581BB00477020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C926DADE1D7581BB00477020 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +60,7 @@
 		C926DAE61D7581BB00477020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C926DAE81D7581BB00477020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C926DAED1D7581BB00477020 /* CountOnMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountOnMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C926DAF11D7581BB00477020 /* Zozor_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zozor_Tests.swift; sourceTree = "<group>"; };
-		C926DAF31D7581BB00477020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C926DAF81D7581BB00477020 /* CountOnMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountOnMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C926DAFC1D7581BB00477020 /* Zozor_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zozor_UITests.swift; sourceTree = "<group>"; };
-		C926DAFE1D7581BB00477020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9DA15091DF08CF100B0974D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,14 +88,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F0FB51B215A51E000BC27B4 /* Zozor+Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FB51D215A51E000BC27B4 /* Info.plist */,
+				0F3041102160D46A008B2446 /* AdditionTestCase.swift */,
+				0F30411221616AA7008B2446 /* MultiplyTestCase.swift */,
+				0F30411421616CD3008B2446 /* MinusTestCase.swift */,
+			);
+			path = "Zozor+Tests";
+			sourceTree = "<group>";
+		};
+		0F0FB520215A51EA00BC27B4 /* Zozor+UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FB521215A51EA00BC27B4 /* Zozor_UITests.swift */,
+				0F0FB522215A51EA00BC27B4 /* Info.plist */,
+			);
+			path = "Zozor+UITests";
+			sourceTree = "<group>";
+		};
+		0F360CD3213FCF2B00A9D40F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FB519215A4A4C00BC27B4 /* Calculate.swift */,
+				0F7CAFED215FB46700E23439 /* Addition.swift */,
+				0F7CAFEF215FB51300E23439 /* Minus.swift */,
+				0F7CAFF1215FB64600E23439 /* Multiply.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F360CD4213FCF3A00A9D40F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C926DAE01D7581BB00477020 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F360CD6213FCF8A00A9D40F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C926DADE1D7581BB00477020 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0F360CD7213FD08800A9D40F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FB520215A51EA00BC27B4 /* Zozor+UITests */,
+				0F0FB51B215A51E000BC27B4 /* Zozor+Tests */,
+				C926DADC1D7581BB00477020 /* AppDelegate.swift */,
+				C926DAE31D7581BB00477020 /* Assets.xcassets */,
+				C926DAE51D7581BB00477020 /* LaunchScreen.storyboard */,
+				C926DAE81D7581BB00477020 /* Info.plist */,
+				C926DADA1D7581BB00477020 /* Products */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C926DAD01D7581BB00477020 = {
 			isa = PBXGroup;
 			children = (
-				C9DA15091DF08CF100B0974D /* Default-568h@2x.png */,
+				0FC270F1216B5DA100955A77 /* Default-568h@2x.png */,
 				C926DADB1D7581BB00477020 /* CountOnMe */,
-				C926DAF01D7581BB00477020 /* CountOnMeTests */,
-				C926DAFB1D7581BB00477020 /* CountOnMeUITests */,
-				C926DADA1D7581BB00477020 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,40 +165,19 @@
 				C926DAF81D7581BB00477020 /* CountOnMeUITests.xctest */,
 			);
 			name = Products;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C926DADB1D7581BB00477020 /* CountOnMe */ = {
 			isa = PBXGroup;
 			children = (
-				C926DADC1D7581BB00477020 /* AppDelegate.swift */,
-				C926DADE1D7581BB00477020 /* ViewController.swift */,
-				C926DAE01D7581BB00477020 /* Main.storyboard */,
-				C926DAE31D7581BB00477020 /* Assets.xcassets */,
-				C926DAE51D7581BB00477020 /* LaunchScreen.storyboard */,
-				C926DAE81D7581BB00477020 /* Info.plist */,
+				0F360CD7213FD08800A9D40F /* Supporting Files */,
+				0F360CD3213FCF2B00A9D40F /* Model */,
+				0F360CD4213FCF3A00A9D40F /* View */,
+				0F360CD6213FCF8A00A9D40F /* Controller */,
 			);
 			name = CountOnMe;
 			path = "Zozor+";
-			sourceTree = "<group>";
-		};
-		C926DAF01D7581BB00477020 /* CountOnMeTests */ = {
-			isa = PBXGroup;
-			children = (
-				C926DAF11D7581BB00477020 /* Zozor_Tests.swift */,
-				C926DAF31D7581BB00477020 /* Info.plist */,
-			);
-			name = CountOnMeTests;
-			path = "Zozor+Tests";
-			sourceTree = "<group>";
-		};
-		C926DAFB1D7581BB00477020 /* CountOnMeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C926DAFC1D7581BB00477020 /* Zozor_UITests.swift */,
-				C926DAFE1D7581BB00477020 /* Info.plist */,
-			);
-			name = CountOnMeUITests;
-			path = "Zozor+UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,27 +243,30 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Ambroise Collon";
 				TargetAttributes = {
 					C926DAD81D7581BB00477020 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 594D8WX9K7;
 						LastSwiftMigration = 0810;
 					};
 					C926DAEC1D7581BB00477020 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0810;
+						DevelopmentTeam = 594D8WX9K7;
+						LastSwiftMigration = 1000;
 						TestTargetID = C926DAD81D7581BB00477020;
 					};
 					C926DAF71D7581BB00477020 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 594D8WX9K7;
 						LastSwiftMigration = 0810;
 						TestTargetID = C926DAD81D7581BB00477020;
 					};
 				};
 			};
 			buildConfigurationList = C926DAD41D7581BB00477020 /* Build configuration list for PBXProject "CountOnMe" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -239,7 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C926DAE71D7581BB00477020 /* LaunchScreen.storyboard in Resources */,
-				C9DA150A1DF08CF100B0974D /* Default-568h@2x.png in Resources */,
+				0FC270F2216B5DA100955A77 /* Default-568h@2x.png in Resources */,
 				C926DAE41D7581BB00477020 /* Assets.xcassets in Resources */,
 				C926DAE21D7581BB00477020 /* Main.storyboard in Resources */,
 			);
@@ -267,7 +319,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C926DADF1D7581BB00477020 /* ViewController.swift in Sources */,
+				0F7CAFEE215FB46700E23439 /* Addition.swift in Sources */,
+				0F7CAFF0215FB51300E23439 /* Minus.swift in Sources */,
+				0F7CAFF2215FB64600E23439 /* Multiply.swift in Sources */,
 				C926DADD1D7581BB00477020 /* AppDelegate.swift in Sources */,
+				0F0FB51A215A4A4C00BC27B4 /* Calculate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +331,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C926DAF21D7581BB00477020 /* Zozor_Tests.swift in Sources */,
+				0F3041112160D46A008B2446 /* AdditionTestCase.swift in Sources */,
+				0F30411521616CD3008B2446 /* MinusTestCase.swift in Sources */,
+				0F30411321616AA7008B2446 /* MultiplyTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C926DAFD1D7581BB00477020 /* Zozor_UITests.swift in Sources */,
+				0F0FB523215A51EA00BC27B4 /* Zozor_UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,14 +389,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -361,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -379,14 +445,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -403,10 +477,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -416,11 +491,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Zozor+/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				DEVELOPMENT_TEAM = 594D8WX9K7;
+				INFOPLIST_FILE = "$(SRCROOT)/Zozor+/Supporting Files/Zozor+Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ambroisecollon.CountOnMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -429,11 +508,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Zozor+/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				DEVELOPMENT_TEAM = 594D8WX9K7;
+				INFOPLIST_FILE = "$(SRCROOT)/Zozor+/Supporting Files/Zozor+Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ambroisecollon.CountOnMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -441,12 +524,20 @@
 		C926DB051D7581BB00477020 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Zozor+Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 594D8WX9K7;
+				INFOPLIST_FILE = "Zozor+/Supporting Files/Zozor+Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ambroisecollon.Zozor-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountOnMe.app/CountOnMe";
 			};
 			name = Debug;
@@ -454,12 +545,19 @@
 		C926DB061D7581BB00477020 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Zozor+Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 594D8WX9K7;
+				INFOPLIST_FILE = "Zozor+/Supporting Files/Zozor+Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ambroisecollon.Zozor-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountOnMe.app/CountOnMe";
 			};
 			name = Release;
@@ -467,24 +565,36 @@
 		C926DB081D7581BB00477020 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "Zozor+UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				DEVELOPMENT_TEAM = 594D8WX9K7;
+				INFOPLIST_FILE = "Zozor+/Supporting Files/Zozor+UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ambroisecollon.Zozor-UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Zozor+";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = CountOnMe;
 			};
 			name = Debug;
 		};
 		C926DB091D7581BB00477020 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "Zozor+UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				DEVELOPMENT_TEAM = 594D8WX9K7;
+				INFOPLIST_FILE = "Zozor+/Supporting Files/Zozor+UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ambroisecollon.Zozor-UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Zozor+";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = CountOnMe;
 			};
 			name = Release;
 		};

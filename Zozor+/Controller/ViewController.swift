@@ -59,6 +59,19 @@ class ViewController: UIViewController {
         }
     }
 
+
+    @IBAction func multiply() {
+        if canAddOperator{
+            operators.append("x")
+            stringNumbers.append("")
+            updateDisplay()
+        }
+    }
+    
+
+
+
+
     @IBAction func plus() {
         if canAddOperator {
         	operators.append("+")
@@ -78,6 +91,19 @@ class ViewController: UIViewController {
     @IBAction func equal() {
         calculateTotal()
     }
+
+
+
+    @IBAction func divide() {
+
+        if canAddOperator{
+            operators.append("÷")
+            stringNumbers.append("")
+            updateDisplay()
+        }
+    }
+    
+    
 
 
     // MARK: - Methods
@@ -103,6 +129,12 @@ class ViewController: UIViewController {
                     total += number
                 } else if operators[i] == "-" {
                     total -= number
+                } else if operators[i] == "x" {
+                    total *= number
+
+                } else if operators[i] == "÷" {
+                    total /= number
+
                 }
             }
         }
