@@ -1,29 +1,19 @@
 //
-//  Addition.swift
+//  Division.swift
 //  CountOnMe
 //
-//  Created by vador on 29/09/2018.
+//  Created by vador on 09/10/2018.
 //  Copyright © 2018 Ambroise Collon. All rights reserved.
 //
 
 import Foundation
-import UIKit
-
-protocol Value {
-    var value: Int { get }
-}
-
-
-
-class Addition: Value {
-
+class Division: Value {
+    
     var value: Int {
 
-    return value1.value + value2.value
+        return value1.value / value2.value
 
     }
-
-
 
     var value1: Value
     var value2: Value
@@ -32,7 +22,9 @@ class Addition: Value {
         self.value2 = v2
     }
 
+    func divisioning () {
+       
+    }
 }
-
 
 

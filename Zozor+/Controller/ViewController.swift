@@ -7,33 +7,24 @@
 //
 
 import UIKit
-// mettre ce code dans le modele
+
 class ViewController: UIViewController {
-    // MARK: - Properties
-    var stringNumbers: [String] = [String()]
-    var operators: [String] = ["+"]
-    var index = 0
-    var isExpressionCorrect: Bool {
-        if let stringNumber = stringNumbers.last {
-            if stringNumber.isEmpty {
-                if stringNumbers.count == 1 {
-                    let alertVC = UIAlertController(title: "Zéro!", message: "Démarrez un nouveau calcul !", preferredStyle: .alert)
-                    alertVC.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
-                    self.present(alertVC, animated: true, completion: nil)
-                } else {
-                    let alertVC = UIAlertController(title: "Zéro!", message: "Entrez une expression correcte !", preferredStyle: .alert)
-                    alertVC.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
-                    self.present(alertVC, animated: true, completion: nil)
-                }
-                return false
-            }
-        }
-        return true
-    }
+
+
+    var compute = Compute()
+
+
+
+    // MARK: - Outlets
+
+    @IBOutlet weak var textView: UITextView!
+    @IBOutlet var numberButtons: [UIButton]!
+
+
 
     var canAddOperator: Bool {
-        if let stringNumber = stringNumbers.last {
-            if stringNumber.isEmpty {
+        if let text = textView.text {
+            if text.isEmpty || CharacterSet.decimalDigits.contains(text.unicodeScalars.last!) == false {
                 let alertVC = UIAlertController(title: "Zéro!", message: "Expression incorrecte !", preferredStyle: .alert)
                 alertVC.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
                 self.present(alertVC, animated: true, completion: nil)
@@ -43,123 +34,58 @@ class ViewController: UIViewController {
         return true
     }
 
-
-    // MARK: - Outlets
-
-    @IBOutlet weak var textView: UITextView!
-    @IBOutlet var numberButtons: [UIButton]!
-
     // MARK: - Action
 
-    @IBAction func tappedNumberButton(_ sender: UIButton) {
-        for (i, numberButton) in numberButtons.enumerated() {
-            if sender == numberButton {
-                addNewNumber(i)
-            }
-        }
+
+    @IBAction func clearButton(_ sender: Any) {
+        self.textView.text = nil
     }
 
 
+
+    @IBAction func tappedNumberButton(_ sender: UIButton) {
+        guard let text = sender.titleLabel?.text,
+            let int = Int(text) else { return }
+        addNewNumber(int)
+    }
+
     @IBAction func multiply() {
-        if canAddOperator{
-            operators.append("x")
-            stringNumbers.append("")
-            updateDisplay()
+        if canAddOperator {
+            textView.text += " * "
         }
     }
     
 
-
-
-
     @IBAction func plus() {
         if canAddOperator {
-        	operators.append("+")
-        	stringNumbers.append("")
-            updateDisplay()
+            textView.text += " + "
         }
     }
 
     @IBAction func minus() {
         if canAddOperator {
-            operators.append("-")
-            stringNumbers.append("")
-            updateDisplay()
+            textView.text += " - "
         }
     }
 
+
     @IBAction func equal() {
-        calculateTotal()
+        compute.userInput = textView.text.split(separator: " ").map(String.init)
+
+        let saveTotal = compute.total()
+        textView.text = "\(saveTotal)"
     }
 
 
 
     @IBAction func divide() {
-
-        if canAddOperator{
-            operators.append("÷")
-            stringNumbers.append("")
-            updateDisplay()
+        if canAddOperator {
+            textView.text += " / "
         }
     }
-    
-    
-
-
     // MARK: - Methods
 
     func addNewNumber(_ newNumber: Int) {
-        if let stringNumber = stringNumbers.last {
-            var stringNumberMutable = stringNumber
-            stringNumberMutable += "\(newNumber)"
-            stringNumbers[stringNumbers.count-1] = stringNumberMutable
-        }
-        updateDisplay()
-    }
-
-    func calculateTotal() {
-        if !isExpressionCorrect {
-            return
-        }
-
-        var total = 0
-        for (i, stringNumber) in stringNumbers.enumerated() {
-            if let number = Int(stringNumber) {
-                if operators[i] == "+" {
-                    total += number
-                } else if operators[i] == "-" {
-                    total -= number
-                } else if operators[i] == "x" {
-                    total *= number
-
-                } else if operators[i] == "÷" {
-                    total /= number
-
-                }
-            }
-        }
-
-        textView.text = textView.text + "=\(total)"
-
-        clear()
-    }
-
-    func updateDisplay() {
-        var text = ""
-        for (i, stringNumber) in stringNumbers.enumerated() {
-            // Add operator
-            if i > 0 {
-                text += operators[i]
-            }
-            // Add number
-            text += stringNumber
-        }
-        textView.text = text
-    }
-
-    func clear() {
-        stringNumbers = [String()]
-        operators = ["+"]
-        index = 0
+        textView.text += "\(newNumber)"
     }
 }

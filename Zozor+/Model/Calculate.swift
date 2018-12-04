@@ -9,10 +9,6 @@
 import Foundation
 import UIKit
 
-    
-
-
-
 
 
 
@@ -26,7 +22,10 @@ enum Op {
 
 
 extension Int: Value {
-    var value: Int { return self }
+    var value: Int {
+    return self
+        
+    }
 }
 
 extension Op: Value {

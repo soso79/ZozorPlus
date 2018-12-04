@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0CB7AC216CC80E006589CD /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CB7AB216CC80E006589CD /* Division.swift */; };
+		0F0CB7AE216D1B9C006589CD /* DivisionTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CB7AD216D1B9C006589CD /* DivisionTestCase.swift */; };
 		0F0FB51A215A4A4C00BC27B4 /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FB519215A4A4C00BC27B4 /* Calculate.swift */; };
 		0F0FB523215A51EA00BC27B4 /* Zozor_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FB521215A51EA00BC27B4 /* Zozor_UITests.swift */; };
 		0F3041112160D46A008B2446 /* AdditionTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3041102160D46A008B2446 /* AdditionTestCase.swift */; };
@@ -15,7 +17,7 @@
 		0F7CAFEE215FB46700E23439 /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CAFED215FB46700E23439 /* Addition.swift */; };
 		0F7CAFF0215FB51300E23439 /* Minus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CAFEF215FB51300E23439 /* Minus.swift */; };
 		0F7CAFF2215FB64600E23439 /* Multiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CAFF1215FB64600E23439 /* Multiply.swift */; };
-		0FC270F2216B5DA100955A77 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC270F1216B5DA100955A77 /* Default-568h@2x.png */; };
+		0F833F7D217F3B7600CA589C /* Compute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F833F7C217F3B7600CA589C /* Compute.swift */; };
 		C926DADD1D7581BB00477020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926DADC1D7581BB00477020 /* AppDelegate.swift */; };
 		C926DADF1D7581BB00477020 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926DADE1D7581BB00477020 /* ViewController.swift */; };
 		C926DAE21D7581BB00477020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C926DAE01D7581BB00477020 /* Main.storyboard */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F0CB7AB216CC80E006589CD /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
+		0F0CB7AD216D1B9C006589CD /* DivisionTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionTestCase.swift; sourceTree = "<group>"; };
 		0F0FB519215A4A4C00BC27B4 /* Calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
 		0F0FB51D215A51E000BC27B4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F0FB521215A51EA00BC27B4 /* Zozor_UITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zozor_UITests.swift; sourceTree = "<group>"; };
@@ -51,7 +55,7 @@
 		0F7CAFED215FB46700E23439 /* Addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addition.swift; sourceTree = "<group>"; };
 		0F7CAFEF215FB51300E23439 /* Minus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minus.swift; sourceTree = "<group>"; };
 		0F7CAFF1215FB64600E23439 /* Multiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply.swift; sourceTree = "<group>"; };
-		0FC270F1216B5DA100955A77 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../.Trash/Default-568h@2x.png"; sourceTree = "<group>"; };
+		0F833F7C217F3B7600CA589C /* Compute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compute.swift; sourceTree = "<group>"; };
 		C926DAD91D7581BB00477020 /* CountOnMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountOnMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C926DADC1D7581BB00477020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C926DADE1D7581BB00477020 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 				0F3041102160D46A008B2446 /* AdditionTestCase.swift */,
 				0F30411221616AA7008B2446 /* MultiplyTestCase.swift */,
 				0F30411421616CD3008B2446 /* MinusTestCase.swift */,
+				0F0CB7AD216D1B9C006589CD /* DivisionTestCase.swift */,
 			);
 			path = "Zozor+Tests";
 			sourceTree = "<group>";
@@ -115,6 +120,8 @@
 				0F7CAFED215FB46700E23439 /* Addition.swift */,
 				0F7CAFEF215FB51300E23439 /* Minus.swift */,
 				0F7CAFF1215FB64600E23439 /* Multiply.swift */,
+				0F0CB7AB216CC80E006589CD /* Division.swift */,
+				0F833F7C217F3B7600CA589C /* Compute.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,7 +159,6 @@
 		C926DAD01D7581BB00477020 = {
 			isa = PBXGroup;
 			children = (
-				0FC270F1216B5DA100955A77 /* Default-568h@2x.png */,
 				C926DADB1D7581BB00477020 /* CountOnMe */,
 			);
 			sourceTree = "<group>";
@@ -291,7 +297,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C926DAE71D7581BB00477020 /* LaunchScreen.storyboard in Resources */,
-				0FC270F2216B5DA100955A77 /* Default-568h@2x.png in Resources */,
 				C926DAE41D7581BB00477020 /* Assets.xcassets in Resources */,
 				C926DAE21D7581BB00477020 /* Main.storyboard in Resources */,
 			);
@@ -320,8 +325,10 @@
 			files = (
 				C926DADF1D7581BB00477020 /* ViewController.swift in Sources */,
 				0F7CAFEE215FB46700E23439 /* Addition.swift in Sources */,
+				0F0CB7AC216CC80E006589CD /* Division.swift in Sources */,
 				0F7CAFF0215FB51300E23439 /* Minus.swift in Sources */,
 				0F7CAFF2215FB64600E23439 /* Multiply.swift in Sources */,
+				0F833F7D217F3B7600CA589C /* Compute.swift in Sources */,
 				C926DADD1D7581BB00477020 /* AppDelegate.swift in Sources */,
 				0F0FB51A215A4A4C00BC27B4 /* Calculate.swift in Sources */,
 			);
@@ -331,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F0CB7AE216D1B9C006589CD /* DivisionTestCase.swift in Sources */,
 				0F3041112160D46A008B2446 /* AdditionTestCase.swift in Sources */,
 				0F30411521616CD3008B2446 /* MinusTestCase.swift in Sources */,
 				0F30411321616AA7008B2446 /* MultiplyTestCase.swift in Sources */,
