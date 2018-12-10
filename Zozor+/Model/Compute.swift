@@ -28,7 +28,7 @@ class Compute {
 
         while finalResult.count > 1 {
 
-// we check if there is multiply or division in the index if yes we take the element in the index, we take the previous element and the next element in the index.We make the calcul between the two elements and we replace it in the finalResult variable
+// we check if there is multiply or division in the list if yes we take the element in the list, we take the previous element and the next element in the list.We make the calcul between the two elements and we replace it in the finalResult variable
 
             let firstMultiply =  finalResult.firstIndex(of: "*")
             let diviser =  finalResult.firstIndex(of: "/")
