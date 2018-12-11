@@ -13,15 +13,21 @@ protocol Value {
     var value: Int { get }
 }
 
+extension Int: Value {
+    var value: Int {
+        return self
 
+    }
+}
 
 class Addition: Value {
 
     var value: Int {
 
-    return value1.value + value2.value
+        return value1.value + value2.value
 
     }
+
 
 
 

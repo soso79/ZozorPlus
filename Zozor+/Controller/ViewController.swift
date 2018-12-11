@@ -37,6 +37,7 @@ class ViewController: UIViewController {
     // MARK: - Action
 
 
+
     @IBAction func clearButton(_ sender: Any) {
         self.textView.text = nil
     }
