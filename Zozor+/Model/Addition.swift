@@ -23,13 +23,9 @@ extension Int: Value {
 class Addition: Value {
 
     var value: Int {
-
         return value1.value + value2.value
 
     }
-
-
-
 
     var value1: Value
     var value2: Value

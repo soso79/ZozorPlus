@@ -28,12 +28,11 @@ class Compute {
 
         while finalResult.count > 1 {
 
-// we check if there is multiply or division in the list if yes we take the element in the list, we take the previous element and the next element in the list.We make the calcul between the two elements and we replace it in the finalResult variable
+            // we check if there is multiply or division in the list if yes we take the element in the list, we take the previous element and the next element in the list.We make the calcul between the two elements and we replace it in the finalResult variable
 
             let firstMultiply =  finalResult.firstIndex(of: "*")
             let diviser =  finalResult.firstIndex(of: "/")
             if firstMultiply != nil || diviser != nil{
-                
                 let index = (firstMultiply ?? diviser)!
                 let left = finalResult[index - 1]
                 let op = finalResult[index]
@@ -42,7 +41,6 @@ class Compute {
                 finalResult[index-1] = "\(result.value)"
                 finalResult.remove(at: index)
                 finalResult.remove(at: index)
-
             }
 
             let addtioner = finalResult.firstIndex(of: "+")
@@ -56,20 +54,10 @@ class Compute {
                 finalResult[index-1] = "\(result.value)"
                 finalResult.remove(at: index)
                 finalResult.remove(at: index)
-
-
             }
 
-
-
-
-
-
-        } 
-
+        }
         return Int(finalResult.first!)!
-
-
     }
 
     func compute(left: Value, op: String, right: Value) -> Value {

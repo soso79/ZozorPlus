@@ -8,11 +8,8 @@
 
 import Foundation
 class Division: Value {
-    
     var value: Int {
-
         return value1.value / value2.value
-
     }
 
     var value1: Value
@@ -22,9 +19,6 @@ class Division: Value {
         self.value2 = v2
     }
 
-    func divisioning () {
-       
-    }
 }
 
 
